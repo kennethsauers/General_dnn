@@ -4,6 +4,8 @@
 	can classify any problem when given a numpy array of the 
 	features and labels.
 
+    this class only works with classiftion
+    
 ## dependencys
 	
 	numpy
@@ -32,5 +34,5 @@
 	
 	to assess tensorboard on unbuntu
 
-	type: _tensorboard --logdir /tmp/tflearn_logs/openai_learning/_
+	type: tensorboard --logdir /tmp/tflearn_logs/openai_learning/
 	into terminal
